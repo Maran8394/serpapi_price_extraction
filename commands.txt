@@ -1,0 +1,16 @@
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python -m flask --app price_extraction run --port 8000 --debug 
+
+
+Sample payload
+---------------
+url -  http://localhost:8000/google-search
+method - POST
+{
+    "product": "Samsung galaxy s23 ultra 2022",
+    "contry": "singapore",
+    "use_nlp": false
+}
+
+
