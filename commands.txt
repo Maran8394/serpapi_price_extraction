@@ -14,3 +14,12 @@ method - POST
 }
 
 
+url -  http://localhost:8000/bing-search
+method - POST
+{
+    "product": "Rolex Submariner",
+    "contry": "singapore",
+    "use_nlp": false
+}
+
+
