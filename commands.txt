@@ -1,6 +1,6 @@
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-python -m flask --app price_extraction run --port 8000 --debug 
+python -m flask --app price_extraction run --port 8000 
 
 
 Sample payload
